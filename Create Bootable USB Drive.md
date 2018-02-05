@@ -44,7 +44,6 @@ Unmount of all volumes on disk1 was successful
 1081+1 records in
 1081+1 records out
 3403579392 bytes transferred in 1926.533436 secs (1766686 bytes/sec)
-[ Aaron@kali-linux-2.0-i386 ]$ 
 ```
 
 
