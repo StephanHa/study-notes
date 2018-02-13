@@ -77,7 +77,7 @@ shell# echo 1 > /proc/sys/net/ipv4/ip_forward
 
 ```shell
 shell# iptables -F  # 清除iptables
-shell# iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE  # 打开NAT
+shell# iptables -t nat -A POSTROUTING -o ppp0 -j MASQUERADE  # 打开NAT
 shell# iptables -p INPUT ACCEPT
 shell# iptables -p FORWARD  ACCEPT
 shell# iptables-save  
